@@ -1,0 +1,13 @@
+{
+  "name": "lightningd",
+  "description": "a Lightning Network implementation in C",
+  "version": "0.5.2",
+  "license": "BSD-MIT"
+  "scripts": {
+    "install": "make"
+  },
+  "bin": {
+    "lightningd": "lightningd/lightningd",
+    "lightning-cli": "cli/lightning-cli"
+  },
+}
